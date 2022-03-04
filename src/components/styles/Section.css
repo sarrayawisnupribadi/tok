@@ -1,11 +1,9 @@
 .section {
-    background: linear-gradient(var(--img-back)),url(../assets/space.jpg);
+    background: linear-gradient(var(--img-back)),url(../assets/office.jpg);
     width: 100%;
-    min-height: 100vh;
     background-size: cover;
     background-position: center;
     position: sticky;
-    top: 0;
 }
 
 .section__box {
