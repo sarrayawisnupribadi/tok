@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from './Header'
-import card2 from './assets/card2-1.png'
+import card from './assets/card4.png'
 import './styles/Section.css'
 
 const Section = () => {
@@ -10,15 +10,14 @@ const Section = () => {
 
             <div className="section__box">
                 <div className="section__content">
-                    <h1 className='content__header'>Pakingg</h1>
-                    <p>OPIOPIOPI</p>
-                    <p className='small__p'>The Card of Future</p>
+                    <h1 className='content__header'>C-Ad</h1>
+                    <p className='small__p'>For your better business</p>
                     <button>Get</button>
                     <button>Discover</button>
                 </div>
 
                 <div className="section__img">
-                    <img src={card2} alt="" />
+                    <img src={card} alt="" />
                 </div>
 
 
