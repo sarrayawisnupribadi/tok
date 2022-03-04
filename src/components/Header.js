@@ -1,7 +1,7 @@
 import { Close, MenuOutlined } from '@material-ui/icons'
 import { Link } from 'react-router-dom'
 import React,{useState} from 'react'
-import mona3 from './assets/mona3.png'
+import icon from './assets/icon2.png'
 import './styles/Header.css'
 
 const Header = () => {
@@ -16,7 +16,7 @@ const Header = () => {
         <div className='header'>
             
                 <div className="header__logo">
-                    <img src={mona3} alt="" />
+                    <img src={icon} alt="" />
                 </div>
 
                 <div className="menu__icon">
@@ -44,7 +44,7 @@ const Header = () => {
 
                             <li><Link to='/'>About</Link></li>
 
-                            <li><Link to='/contact'>Contact</Link></li>
+                            <li><Link to='/'>Contact</Link></li>
 
                     </ul>
 
